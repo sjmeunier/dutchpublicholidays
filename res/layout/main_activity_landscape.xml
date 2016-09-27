@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/mainactivity"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center_horizontal">
+   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".DutchPublicHoliday" >
+
+	<Spinner 
+	    android:id="@+id/year_spinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:prompt="@string/year_prompt"
+		/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+    >
+    <TableLayout
+        android:id="@+id/holiday_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/year_spinner" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/holiday_table2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+ >
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+   
+</RelativeLayout>

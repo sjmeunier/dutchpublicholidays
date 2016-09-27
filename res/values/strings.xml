@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dutch Public Holidays</string>
+    <string name="year_prompt">Choose a year</string>
+    <string-array name="year_array">
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+    </string-array>
+    <string name="menu_settings">Preferences</string>
+    <string name="menu_about">About</string>
+
+</resources>
